@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html lang="en" class="no-js ie ielt9 ie6"> <![endif]-->
+<!--[if IE 7]> <html lang="en" class="no-js ie ielt9 ie7"> <![endif]-->
+<!--[if IE 8]> <html lang="en" class="no-js ie ielt9 ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="no-js ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class='no-js' lang='en'>
+    <!--<![endif]-->
+    <head>
+        <meta charset='utf-8' />
+        <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible' />
+        <title>Dial Navigation</title>
+        <meta content='' name='description' />
+        <meta content='' name='author' />
+        <meta content='width=device-width, initial-scale=1.0, user-scalable=no' name='viewport' />
+        <link href='css/style.css' media='all' rel='stylesheet' />
+        <script src='js/libs/modernizr-2.6.2.min.js'></script>
+    </head>
+    <body class="home">
+    	<div>
+        <header class="main">
+            <nav>
+                <a id="menu" href="#"><i class="icon-navicon"></i></a>
+                <a href="#"><b>YOUR LOGO HERE</b></a>
+                <a id="search" href="#"><i class="icon-search"></i></a>
+            </nav>
+        </header>
+		
+        <section id="main-content">
+            <div class="clear-overlay"></div>
+        	<header>
+        		<div id="search-bar">
+        			<form>
+        				<div class="clear">
+        					<i class="icon-searchclose"></i>
+						</div>
+						<div class="input">
+        					<i class="icon-search"></i>
+							<input type="search" />
+						</div>       			
+					</form>
+				</div>
+        	</header>
+            <div id="dial-nav" class="dial-wrap">
+                <div class="dial-basic">
+                    <ul>
+                        <li><a href="#" data-prog="0"><div></div></a></li>
+                        <li><a href="#" data-prog="1"><div></div></a></li>
+                        <li><a href="#" data-prog="2"><div></div></a></li>
+                        <li><a href="#" data-prog="3"><div></div></a></li>
+                        <li><a href="#" data-prog="4"><div></div></a></li>
+                        <li><a href="#" data-prog="5"><div></div></a></li>
+                        <!--<li><a href="#7"><div></div></a></li>-->
+                    </ul>
+                </div>
+                <div class="content">
+                    <div id="prog0">
+                        <a href="#">
+                            <h2>States</h2>
+                            <p>Touch here to<br> learn more</p>
+                        </a>
+                    </div>
+                    <div id="prog1">
+                        <a href="#">
+                            <h2>Colors</h2>
+                            <p>Touch here to<br> learn more</p>
+                        </a>
+                    </div>
+                    <div id="prog2">
+                        <a href="#">
+                            <h2>Cars</h2>
+                            <p>Touch here to<br> learn more</p>
+                        </a>
+                    </div>
+                    <div id="prog3">
+                        <a href="#">
+                            <h2>Shapes</h2>
+                            <p>Touch here to<br> learn more</p>
+                        </a>
+                    </div>
+                    <div id="prog4">
+                        <a href="#">
+                            <h2>Animals</h2>
+                            <p>Touch here to<br> learn more</p>
+                        </a>
+                    </div>
+                    <div id="prog5">
+                        <a href="#">
+                            <h2>Flowers</h2>
+                            <p>Touch here to<br> learn more</p>
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <!--<div id="controls">
+                <button data-program="1">Activate 1</button>
+                <button data-program="3">Activate 3</button>
+                <button data-program="4">Activate 4</button>
+            </div> -->
+            <div id="solutions-carousel">
+                <div class="viewport">
+                    <a href="#" class="control prev"></a>
+                    <a href="#" class="control next"></a>
+                    <ul>
+                        <li data-prog="0"><a href="#">California</a></li>
+                        <li data-prog="0"><a href="#">Hawaii</a></li>
+                        <li data-prog="0"><a href="#">New York</a></li>
+                        <li data-prog="1"><a href="#">Red</a></li>
+                        <li data-prog="1"><a href="#">Blue</a></li>
+                        <li data-prog="2"><a href="#">Coupe</a></li>
+                        <li data-prog="2"><a href="#">Sedan</a></li>
+                        <li data-prog="3"><a href="#">Triangle</a>
+                        <li data-prog="4"><a href="#">Dog</a>
+                        <li data-prog="5"><a href="#">Rose</a>
+                        <li data-prog="5"><a href="#">Orchid</a>
+                        <li data-prog="5"><a href="#">Lily</a>
+                    </ul>
+                </div>
+            </div>
+            
+        </section>
+
+        <div id="overlay">
+			<div class="close"><i class="icon-close"></i></div>
+			<div id="menu-content">
+				<ul>
+					<li><a href="">Categories</a>
+						<ul>
+							<li><a href="#">States</a></li>
+							<li><a href="#">Colors</a></li>
+							<li><a href="#">Cars</a></li>
+							<li><a href="#">Shapes</a></li>
+                            <li><a href="#">Animals</a></li>
+                            <li><a href="#">Flowers</a></li>
+						</ul>
+					</li>
+				</ul>
+				<footer><a href="#">View Desktop Site</a></footer>
+			</div>
+		</div>
+
+
+        <script src="js/libs/jquery-2.0.3.min.js"></script>
+        <script src="js/libs/retina-1.1.0.min.js"></script>
+        <script src='js/script.js'></script>
+        <!--<script type='text/javascript'>
+            //<![CDATA[
+                var _gaq=[["_setAccount","UA-XXXXX-X"],["_trackPageview"],["_trackPageLoadTime"]];
+                (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+                g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
+                s.parentNode.insertBefore(g,s)}(document,"script"));
+            //]]>
+        </script> // faster loading-->
+        </div>
+    </body>
+</html>
